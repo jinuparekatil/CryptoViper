@@ -7,8 +7,8 @@
 
 import Foundation
 import UIKit
-// class , protoco
-//Entry point 
+// class , protocol
+//Entry point
 typealias EntryPoint = AnyView & UIViewController
 protocol AnyRouter{
     var entry : EntryPoint? {get}
